@@ -40,10 +40,11 @@ const Layout = ({children}) => (
                                         <img alt={"Logo"} src={logo}/>
                                     </Link>
                                 </div> */}
-                                <h1 style={{marginTop: 0}}>Leo</h1>
+                                <h1 style={{marginTop: 0}}>Founder Friends</h1>
 
                                 <div className={"about"}>
-                                    <p>Our goal is to provide a new way for people to learn a new language, that is fun and actually works.</p>
+                                    <p>Video chat with other founders to share your story, practice your pitch, learn someone else's lessons and engage with founders from around the world.</p>
+                                
                                 </div>
                             </div>
                         </div>
@@ -76,7 +77,7 @@ const Layout = ({children}) => (
                         <div className={"col-3"}>
                             <div className={"widget__item"}>
                                 <div className={"social"}>
-                                    <a href="https://twitter.com/goreadleo" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
+                                    <a href="https://twitter.com/theAdamUpchurch" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
                                     {/* <a href="https://www.linkedin.com/company/histaff/" target={"_blank"} title={"LinkedIn"}><img alt={"LinkedIn"} src={iconLinkedin}/></a>
                                     <a href="https://github.com/histaff" target={"_blank"} title={"GitHub"}><img alt={"GitHub"} src={iconGitHub}/></a>
                                     <a href="https://www.instagram.com/histaff.io/" target={"_blank"} title={"Instagram"}><img alt={"Instagram"} src={iconInstagram}/></a> */}

@@ -20,7 +20,7 @@ const ContactPage = () => (
                     <div className={"col-5"}>
                         <div className={"contact-items"}>
                             <p>Email is the best way to reach me.</p>
-                            <h2>goreadleo@gmail.com</h2>
+                            <h2>aupchurch167@gmail.com</h2>
                         </div>
                     </div>
                 </div>

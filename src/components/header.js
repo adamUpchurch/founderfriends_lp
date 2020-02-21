@@ -9,7 +9,7 @@ function BetaPage(props) {
   if(true){
     return (
       <div className={"get-started"}>
-        <a href={"readleo.com/#download_beta"}>Test the Beta</a>
+        <a href={"#download_beta"}>Join now</a>
       </div>
     )
   }
@@ -22,7 +22,7 @@ const Header = (props) => (
                 <div className={"logo"}>
                     <Link to="/" title={"Leo"}>
                         {/* <img alt={"Logo"} src={logo}/> */}
-                        <h1 style={{marginTop: 0}}>Leo</h1>
+                        <h1 style={{marginTop: 0}}>Founder Friends</h1>
                     </Link>
                 </div>
                 <div>
