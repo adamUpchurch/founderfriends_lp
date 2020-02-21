@@ -63,7 +63,7 @@ class IndexPage extends React.Component {
                                 <div className={"col-6"}>
                                     <div className={"feature__content"}>
                                         <h2>Practice your pitch & communication.</h2>
-                                        <p>The Hobbit by JRR Tolkien has 96,072 words,<br/>with 6,911 unique words. You'll be a Word Wizard in no time!</p>
+                                        <p>Someone smart once said that Luck is when preparation meets opportunity.</p>
                                     </div>
                                 </div>
 
@@ -88,8 +88,8 @@ class IndexPage extends React.Component {
                                     <div className={"feature__content"}>
                                         <h2>Embrace the culture!</h2>
                                         <ol>
-                                            <li>Founders and startups are a culture and way of life.</li>
-                                            <li>Founders and startups are a culture and way of life.</li>
+                                            <li>Founders and startups is a way of life.</li>
+                                            <li>Help each other launch their startups.</li>
                                         </ol>
                                     </div>
                                 </div>
