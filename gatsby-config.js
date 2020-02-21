@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: `Leo`,
-        description: `Learn a new language by learning`,
+        title: `Founder Friends`,
+        description: `Connect with startup founders around the world.`,
         author: `Adam Upchurch`,
     },
     plugins: [
@@ -64,7 +64,7 @@ module.exports = {
               // Any additional optional fields
               sampleRate: 5,
               siteSpeedSampleRate: 10,
-              cookieDomain: "readleo.com",
+              cookieDomain: "founderfriends.io",
             },
           },
         // this (optional) plugin enables Progressive Web App + Offline functionality
