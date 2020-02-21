@@ -24,11 +24,23 @@ class IndexPage extends React.Component {
                 <SEO title="Video chat with aspiring startup founders."/>
 
                 <div className={"page-header home"}>
-                    <h1 style={{margin: 0}}>Founder Friends</h1>
-                    <div style={{marginTop: 30}}>
-                        <p>Video chat with other founders to share your story practice your pitch, learn someone else's lessons & engage with founders from around the world.</p>
-                    </div>
-                    <img width="70%" height="auto" alt={"News"} src={thumbnailVideo}/>
+                    
+                    {/* <h1 style={{margin: 0}}>Founder Friends</h1> */}
+                    <div className={"feature__item"}>
+                            <div className={"row"}>
+                                <div className={"col-6"}>
+                                    <div className={"feature__content"}>
+                                        <h1>Connect with founders</h1>
+                                        <p>Video chat with other founders to share your story practice your pitch, learn someone else's lessons & engage with founders from around the world.</p>
+                                    </div>
+                                </div>
+                                <div className={"col-6 first"}>
+                                    <div className={"thumbnail"}>
+                                    <img style={{marginTop:0, width: "100%", height: "auto"}} alt={"News"} src={thumbnailVideo}/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                 </div>
 
