@@ -26,7 +26,7 @@ class IndexPage extends React.Component {
                 <div className={"page-header home"}>
                     <h1 style={{margin: 0}}>Founder Friends</h1>
                     <div style={{marginTop: 30}}>
-                        <p>Video chat with other founders to share your story <br/> practice your pitch, learn someone else's lessons <br/> & engage with founders from around the world.</p>
+                        <p>Video chat with other founders to share your story practice your pitch, learn someone else's lessons & engage with founders from around the world.</p>
                     </div>
                     <img width="70%" height="auto" alt={"News"} src={thumbnailVideo}/>
 
