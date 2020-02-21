@@ -21,7 +21,7 @@ class IndexPage extends React.Component {
     render() {
         return (
             <Layout>
-                <SEO title="Language Learning App"/>
+                <SEO title="Video chat with aspiring startup founders."/>
 
                 <div className={"page-header home"}>
                     <h1 style={{margin: 0}}>Founder Friends</h1>
@@ -44,7 +44,7 @@ class IndexPage extends React.Component {
                                 <div className={"col-6"}>
                                     <div className={"feature__content"}>
                                         <h2>Connect with founders</h2>
-                                        <p>Don't just learn a language. Enjoy learning a language by reading a thrilling novel or a must read classic. Read your favorite novels line by line in your native language and the language you're learning.</p>
+                                        <p>Don't limite yourself to reddit, twitter or even local founders. Have genuine conversations with founders from all over.</p>
                                     </div>
                                 </div>
                             </div>
