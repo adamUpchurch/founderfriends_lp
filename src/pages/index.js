@@ -2,8 +2,6 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import BasicForm from "../components/basicForm"
-import Chimp from "../components/chimp"
 import featureImage from "../../static/images/hero.png";
 import thumbnailBook from "../../static/images/comm.png"
 import thumbnailWizard from "../../static/images/pitch.png"
@@ -30,13 +28,7 @@ class IndexPage extends React.Component {
                     <div style={{marginTop: 30}}>
                         <p>Video chat with other founders to share your story <br/> practice your pitch, learn someone else's lessons <br/> & engage with founders from around the world.</p>
                     </div>
-                    {/* <div style={{margin: 50, marginBottom: -50, textAlign: "center"}}>
-                        <iframe src="https://appetize.io/embed/<PUBLIC_KEY>?device=iphonex&scale=75&autoplay=false&orientation=portrait&deviceColor=black" width="378px" height="800px" frameborder="0" scrolling="no" style={{display: "inline-block"}}></iframe>
-                    </div> */}
-                    {/* <video width="100%" height="auto" autoPlay controls>
-                        <source src={thumbnailVideo} type="video/mp4" />
-                    </video> */}
-                    <img width="40%" height="auto" alt={"News"} src={thumbnailVideo}/>
+                    <img width="70%" height="auto" alt={"News"} src={thumbnailVideo}/>
 
                 </div>
 
@@ -133,8 +125,6 @@ class IndexPage extends React.Component {
                 </div>
                 <div className={"call-to-action"} id="download_beta">
                     <iframe src="https://cdn.forms-content.sg-form.com/9a6678d9-5442-11ea-9cf4-a27321d5a3b7"/>
-                    {/* <Chimp /> */}
-                    {/* z</div> */}
                 </div>
             </Layout>
         )}
