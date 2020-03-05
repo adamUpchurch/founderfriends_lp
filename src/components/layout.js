@@ -30,16 +30,11 @@ const Layout = ({children}) => (
         <>
         <Header siteTitle={data.site.siteMetadata.title}/>
             <main>{children}</main>
-            <footer>
+            {/* <footer>
                 <div className={"container"}>
                     <div className={"row"}>
                         <div className={"col-5"}>
                             <div className={"widget__item"}>
-                                {/* <div className={"logo"}>
-                                    <Link to="/" title={"HiStaff"}>
-                                        <img alt={"Logo"} src={logo}/>
-                                    </Link>
-                                </div> */}
                                 <h1 style={{marginTop: 0}}>Founder Friends</h1>
 
                                 <div className={"about"}>
@@ -49,7 +44,7 @@ const Layout = ({children}) => (
                             </div>
                         </div>
 
-                        {/* <div className={"col-2"}>
+                        <div className={"col-2"}>
                             <div className={"widget__item"}>
                                 <ul className={"links"}>
                                     <h4>Leo</h4>
@@ -59,38 +54,14 @@ const Layout = ({children}) => (
                                     </ul>
                                 </ul>
                             </div>
-                        </div> */}
-
-                        <div className={"col-2"}>
-                            <div className={"widget__item"}>
-                                <div className={"links"}>
-                                    <h4>Support</h4>
-                                    <ul>
-                                        <li><Link to="/contact" title={"Contact Us"}>Contact</Link></li>
-                                        <li><Link to="/privacy" title={"Privacy Policy"}>Privacy</Link></li>
-                                        <li><Link to="/terms" title={"Terms Of Use"}>Terms Of Use</Link></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className={"col-3"}>
-                            <div className={"widget__item"}>
-                                <div className={"social"}>
-                                    <a href="https://twitter.com/theAdamUpchurch" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
-                                    {/* <a href="https://www.linkedin.com/company/histaff/" target={"_blank"} title={"LinkedIn"}><img alt={"LinkedIn"} src={iconLinkedin}/></a>
-                                    <a href="https://github.com/histaff" target={"_blank"} title={"GitHub"}><img alt={"GitHub"} src={iconGitHub}/></a>
-                                    <a href="https://www.instagram.com/histaff.io/" target={"_blank"} title={"Instagram"}><img alt={"Instagram"} src={iconInstagram}/></a> */}
-                                </div>
-                            </div>
                         </div>
                     </div>
 
                     <div className={"copyright"}>
-                        <p>Copyright {new Date().getFullYear()}, {` `} <a href="https://readleo.com" title={"Leo"}>Leo</a>. All rights reserved.</p>
+                        <p> Organized by <a href="https://t.co/BJO0xeoNSR?amp=1" title={"Adam"}> Adam Upchurch</a></p>
                     </div>
                 </div>
-            </footer>
+            </footer> */}
         </>
     )}/>
 )

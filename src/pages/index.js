@@ -25,14 +25,16 @@ class IndexPage extends React.Component {
 
                 <div className={"page-header home"}>
                     
-                    {/* <h1 style={{margin: 0}}>Founder Friends</h1> */}
                     <div className={"feature__item"}>
+                            <div className={"feature__content"}>
+                                <h1>Connect with founders</h1>
+                                <p>Video chat with other founders to share your story practice your pitch, learn someone else's lessons & engage with founders from around the world.</p>
+                            </div>
                             <div className={"row"}>
                                 <div className={"col-6"}>
-                                    <div className={"feature__content"}>
-                                        <h1>Connect with founders</h1>
-                                        <p>Video chat with other founders to share your story practice your pitch, learn someone else's lessons & engage with founders from around the world.</p>
-                                    </div>
+                                <div className={"call-to-action"} id="download_beta">
+                                    <iframe src="https://cdn.forms-content.sg-form.com/9a6678d9-5442-11ea-9cf4-a27321d5a3b7"/>
+                                </div>
                                 </div>
                                 <div className={"col-6 first"}>
                                     <div className={"thumbnail"}>
@@ -40,103 +42,10 @@ class IndexPage extends React.Component {
                                     </div>
                                 </div>
                             </div>
+                                <div className={"copyright"}>
+                                    <p> Organized by <a href="https://t.co/BJO0xeoNSR?amp=1" title={"Adam"}> Adam Upchurch</a></p>
+                                </div>
                         </div>
-
-                </div>
-
-                <div className={"container"}>
-                    <div className={"features"}>
-                        <div className={"feature__item"}>
-                            <div className={"row"}>
-                                <div className={"col-6 first"}>
-                                    <div className={"thumbnail"}>
-                                        <img alt={"Event"} src={thumbnailBook}/>
-                                    </div>
-                                </div>
-                                <div className={"col-6"}>
-                                    <div className={"feature__content"}>
-                                        <h2>Connect with founders</h2>
-                                        <p>Don't limite yourself to reddit, twitter or even local founders. Have genuine conversations with founders from all over.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className={"feature__item"}>
-                            <div className={"row"}>
-                                <div className={"col-6"}>
-                                    <div className={"feature__content"}>
-                                        <h2>Practice your pitch & communication.</h2>
-                                        <p>Someone smart once said that Luck is when preparation meets opportunity.</p>
-                                    </div>
-                                </div>
-
-                                <div className={"col-6 first"}>
-                                    <div className={"thumbnail"}>
-                                        <img alt={"Board"} src={thumbnailWizard}/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className={"feature__item"}>
-                            <div className={"row"}>
-                                <div className={"col-6 first"}>
-                                    <div className={"thumbnail"}>
-                                        <img alt={"News"} src={thumbnailSalsa}/>
-                                        <a href="https://www.vecteezy.com/"> Vectors by Vecteezy</a>
-                                    </div>
-                                </div>
-
-                                <div className={"col-6"}>
-                                    <div className={"feature__content"}>
-                                        <h2>Embrace the culture!</h2>
-                                        <ol>
-                                            <li>Founders and startups is a way of life.</li>
-                                            <li>Help each other launch their startups.</li>
-                                        </ol>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* <div className={"feature__item"}>
-                            <div className={"row"}>
-                                <div className={"col-6"}>
-                                    <div className={"feature__content"}>
-                                        <h2>It's a three step process:</h2>
-                                        <p>learn words & grammar <br/>learn how to pronounciate & listen<br/>Go converse! </p>
-                                    </div>
-                                </div>
-
-                                <div className={"col-6 first"}>
-                                    <div className={"thumbnail"}>
-                                        <img alt={"Team"} src={thumbnailTeams}/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
-
-                        {/* <div className={"feature__item"}>
-                            <div className={"row"}>
-                                <div className={"col-6 first"}>
-                                    <div className={"thumbnail"}>
-                                        <img alt={"Users"} src={thumbnailStaff}/>
-                                    </div>
-                                </div>
-
-                                <div className={"col-6"}>
-                                    <div className={"feature__content"}>
-                                        <h2>Staff management</h2>
-                                        <p>Discard traditional ways to archive staff documents and information, and try new ways to store and archive them in HiStaff easily.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
-                    </div>
-                </div>
-                <div className={"call-to-action"} id="download_beta">
-                    <iframe src="https://cdn.forms-content.sg-form.com/9a6678d9-5442-11ea-9cf4-a27321d5a3b7"/>
                 </div>
             </Layout>
         )}
