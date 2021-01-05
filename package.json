@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Adam Upchurch <aupchurch167@gmail.com>",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "fs": "0.0.1-security",
     "gatsby": "^2.19.19",
     "gatsby-cli": "^2.8.30",
